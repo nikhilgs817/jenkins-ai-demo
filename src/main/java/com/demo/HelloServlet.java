@@ -13,6 +13,6 @@ public class HelloServlet extends HttpServlet {
             throws ServletException, IOException {
         resp.setContentType("text/html");
         resp.getWriter().echo("<h1>Hello from the Jenkins CI/CD demo!</h1>");
-        resp.getWriter().println("<p>Build version: 1.0.0</p>");
+        resp.getWriter().echo("<p>Build version: 1.0.0</p>");
     }
 }
